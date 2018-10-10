@@ -79,7 +79,7 @@ spec:
           value: {{ .Values.mon.monOutTimeout }}
 {{- end }}
 {{- end }}
-{{- if .Values.multifs}}
+{{- if .Values.multifs }}
         - name: ROOK_ALLOW_MULTIPLE_FILESYSTEMS
           value: {{ .Values.multifs }}
 {{- end }}
