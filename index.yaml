@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  rook-ceph:
+  - apiVersion: v1
+    created: 2018-10-10T16:10:01.675823388-06:00
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: 0625f69a1d68905704b2be59004afbcd0298ea926e55335bc962f2756fe90b68
+    icon: https://rook.io/images/logos/rook/rook-logo-color-on-transparent.png
+    name: rook-ceph
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - https://github.com/lindsay-ablonczy/rook/rook-ceph-0.0.1.tgz
+    version: 0.0.1
+generated: 2018-10-10T16:10:01.675022187-06:00
